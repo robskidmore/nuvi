@@ -1,0 +1,39 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  padding: 10px;
+  width: 19%;
+  cursor: pointer;
+}
+
+.filter .filter-text {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.filter.all {
+  background-color: #333;
+}
+
+.filter.twitter {
+  background-color: #55acee;
+}
+
+.filter.facebook {
+  background-color: #3b5998;
+}
+
+.filter.instagram {
+  background-color: #0d4b7f;
+}
+
+.filter.tumblr {
+  background-color: #32506d;
+}

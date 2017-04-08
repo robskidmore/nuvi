@@ -1,0 +1,93 @@
+.card {
+  overflow: hidden;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-body::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.card-actor {
+  text-align: center;
+  border-right: 2px solid #e5e5e5;
+  padding: 20px 40px;
+}
+
+.card-actor a {
+  display: block;
+}
+
+.card-actor img {
+  max-width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-bottom: 20px;
+  border: 2px solid #e5e5e5;
+}
+
+.chip {
+  cursor: pointer;
+}
+
+.chip span {
+  margin-left: 10px;
+  padding: 4px 6px;
+  background-color: #777;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.card .card-content {
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content-inner {
+  padding: 24px;
+}
+
+.card-content-inner img {
+  max-width: 100%;
+}
+
+.card-footer {
+  width: 100%;
+  padding: 0 24px 24px;
+}
+
+.twitter .card-header {
+  background-color: #55acee;
+}
+
+.facebook .card-header {
+  background-color: #3b5998;
+}
+
+.instagram .card-header {
+  background-color: #0d4b7f;
+}
+
+.tumblr .card-header {
+  background-color: #32506d;
+}
+
+.card-header {
+  padding: 10px;
+  border-radius: 2px 2px 0 0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.posted {
+  font-size: 18px;
+  margin-left: 16px;
+}

@@ -1,0 +1,9 @@
+.loading {
+  text-align: center;
+}
+
+.loading-icon {
+  color: #666;
+  font-size: 160px;
+  margin: 100px 0;
+}

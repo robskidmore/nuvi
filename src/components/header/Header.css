@@ -1,0 +1,9 @@
+.header::after,
+.header::before {
+  content: '';
+  display: table;
+}
+
+.header::after {
+  clear: both;
+}
